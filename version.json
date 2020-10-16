@@ -1,5 +1,5 @@
 {
-  "version": "1.3.4",
-  "author": "LordRalInc",
-  "description": "Update 1.3.4\n- РП\n- Установка секретного кода (.слп секреный код <secret_code>)\n- Фикс багов\n- Добавление багов"
+  "version": "1.3.5",
+  "author": "lordralinc",
+  "description": "Update 1.3.5\n- Отключение eval/exec (переменная ENABLE_EVAL в файле const.py)\n- Выключение стандартного хранилища РП поманд (переменная ROLE_PLAY_COMMANDS_USE_REST в файле const.py)\n- Проверка секретного кода при запуске"
 }
