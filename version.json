@@ -1,7 +1,7 @@
 {
   "version": "1.3.6.1",
   "author": "lordralinc",
-  "description": "Update 1.3.6.1\nFIX: +шаб теперь должен работать\nДобавлен sentry-sdk"
+  "description": "Update 1.3.6.1\nFIX: +шаб теперь должен работать\nДобавлен sentry-sdk",
   "update_log": [
     {
       "version": "1.3.6.1",
