@@ -1,7 +1,7 @@
 {
-  "version": "1.3.6.1",
+  "version": "1.3.7",
   "author": "lordralinc",
-  "description": "Update 1.3.6.1\nFIX: +шаб теперь должен работать\nДобавлен sentry-sdk",
+  "description": "Update 1.3.7\nДобавлен слоумо режим бесед\nДобавлен автоматический выход из беседы",
   "update_log": [
     {
       "version": "1.3.6.1",
