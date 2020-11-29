@@ -1,242 +1,307 @@
 {
-  "role_play_commands": [
-    {
-      "name": "выебать",
-      "gen": "acc",
-      "formatter_man": "\uD83D\uDC49\uD83D\uDC4C\uD83D\uDE2C | {first_user} принудил к жёсткому интиму {second_user}",
-      "formatter_woman": "\uD83D\uDC49\uD83D\uDC4C\uD83D\uDE2C | {first_user} принудила к жёсткому интиму {second_user}",
-      "all_ending": "сразу всех"
-    },
-    {
-      "name": "дать пять",
-      "gen": "dat",
-      "formatter_man": "\uD83D\uDE4F\uD83C\uDFFB | {first_user} дал пять {second_user}",
-      "formatter_woman": "\uD83D\uDE4F\uD83C\uDFFB| {first_user} дала пять {second_user}",
-      "all_ending": "сразу всем"
-    },
-    {
-      "name": "записать на ноготочки",
-      "gen": "acc",
-      "formatter_man": "\uD83D\uDC85 | {first_user} записал на ноготочки {second_user}",
-      "formatter_woman": "\uD83D\uDC85 | {first_user} записала на ноготочки {second_user}",
-      "all_ending": "сразу всех"
-    },
-    {
-      "name": "испугать",
-      "gen": "acc",
-      "formatter_man": "\uD83D\uDE31 | {first_user} испугал {second_user}",
-      "formatter_woman": "\uD83D\uDE31 | {first_user} испугала {second_user}",
-      "all_ending": "сразу всех"
-    },
-    {
-      "name": "извиниться",
-      "gen": "ins",
-      "formatter_man": "\uD83D\uDE4F | {first_user} извинился перед {second_user}",
-      "formatter_woman": "\uD83D\uDE4F | {first_user} извинилась перед {second_user}",
-      "all_ending": "всеми сразу"
-    },
-    {
-      "name": "изнасиловать",
-      "gen": "acc",
-      "formatter_man": "\uD83D\uDC49\uD83D\uDC4C\uD83D\uDE2C | {first_user} надругался над {second_user}",
-      "formatter_woman": "\uD83D\uDC49\uD83D\uDC4C\uD83D\uDE2C | {first_user} надругалась над {second_user}",
-      "all_ending": "всеми сразу"
-    },
-    {
-      "name": "кусь",
-      "gen": "acc",
-      "formatter_man": "\uD83D\uDE2C | {first_user} кусьнул {second_user}",
-      "formatter_woman": "\uD83D\uDE2C | {first_user} кусьнула {second_user}",
-      "all_ending": "сразу всех"
-    },
-    {
-      "name": "кастрировать",
-      "gen": "acc",
-      "formatter_man": "✂ | {first_user} кастрировал {second_user}",
-      "formatter_woman": "✂ | {first_user} кастрировала {second_user}",
-      "all_ending": "сразу всех"
-    },
-    {
-      "name": "лизнуть",
-      "gen": "acc",
-      "formatter_man": "\uD83D\uDC45 | {first_user} лизнул {second_user}",
-      "formatter_woman": "\uD83D\uDC45 | {first_user} лизнула {second_user}",
-      "all_ending": "сразу всех"
-    },
-    {
-      "name": "обнять",
-      "gen": "acc",
-      "formatter_man": "\uD83E\uDD17 | {first_user} обнял {second_user}",
-      "formatter_woman": "\uD83E\uDD17 | {first_user} обняла {second_user}",
-      "all_ending": "сразу всех"
-    },
-    {
-      "name": "отравить",
-      "gen": "acc",
-      "formatter_man": "\uD83D\uDC8A | {first_user} отравила {second_user}",
-      "formatter_woman": "\uD83D\uDC8A | {first_user} отравила {second_user}",
-      "all_ending": "сразу всех"
-    },
-    {
-      "name": "отдаться",
-      "gen": "acc",
-      "formatter_man": "\uD83D\uDC9D | {first_user} отдался {second_user}",
-      "formatter_woman": "\uD83D\uDC9D | {first_user} отдалась {second_user}",
-      "all_ending": "сразу всем"
-    },
-    {
-      "name": "поздравить",
-      "gen": "acc",
-      "formatter_man": "\uD83E\uDD73 | {first_user} поздравил {second_user}",
-      "formatter_woman": "\uD83E\uDD73 | {first_user} поздравила {second_user}",
-      "all_ending": "сразу всех"
-    },
-    {
-      "name": "лизь",
-      "gen": "acc",
-      "formatter_man": "\uD83D\uDC45 | {first_user} лизнул  {second_user}",
-      "formatter_woman": "\uD83D\uDC45 | {first_user} лизнула  {second_user}",
-      "all_ending": "сразу всех"
-    },
-    {
-      "name": "прижать",
-      "gen": "acc",
-      "formatter_man": "\uD83E\uDD32 | {first_user} прижал {second_user}",
-      "formatter_woman": "\uD83E\uDD32 | {first_user} прижал {second_user}",
-      "all_ending": "сразу всех"
-    },
-    {
-      "name": "потрогать",
-      "gen": "acc",
-      "formatter_man": "\uD83D\uDE4C | {first_user} потрогал {second_user}",
-      "formatter_woman": "\uD83D\uDE4C | {first_user} потрогала {second_user}",
-      "all_ending": "сразу всех"
-    },
-    {
-      "name": "пожать руку",
-      "gen": "acc",
-      "formatter_man": "\uD83E\uDD1D | {first_user} пожал руку {second_user}",
-      "formatter_woman": "\uD83E\uDD1D | {first_user} пожала руку {second_user}",
-      "all_ending": "сразу всем"
-    },
-    {
-      "name": "послать нахуй",
-      "gen": "acc",
-      "formatter_man": "\uD83E\uDD1D | {first_user} послал куда подальше {second_user}",
-      "formatter_woman": "\uD83E\uDD1D | {first_user} послала куда подальше {second_user}",
-      "all_ending": "сразу всех"
-    },
-    {
-      "name": "похвалить",
-      "gen": "acc",
-      "formatter_man": "\uD83D\uDC4F | {first_user} похвал {second_user}",
-      "formatter_woman": "\uD83D\uDC4F | {first_user} похвала {second_user}",
-      "all_ending": "сразу всех"
-    },
-    {
-      "name": "понюхать",
-      "gen": "acc",
-      "formatter_man": "\uD83D\uDE18 | {first_user} понюхал {second_user}",
-      "formatter_woman": "\uD83D\uDE18 | {first_user} понюхала {second_user}",
-      "all_ending": "сразу всех"
-    },
-    {
-      "name": "погладить",
-      "gen": "acc",
-      "formatter_man": "\uD83D\uDC4B | {first_user} погладил {second_user}",
-      "formatter_woman": "\uD83D\uDC4B | {first_user} погладила {second_user}",
-      "all_ending": "сразу всех"
-    },
-    {
-      "name": "пригласить на чаёк",
-      "gen": "acc",
-      "formatter_man": "☕ | {first_user} пригласил на чаёк {second_user}",
-      "formatter_woman": "☕ | {first_user} пригласила на чаёк {second_user}",
-      "all_ending": "сразу всех"
-    },
-    {
-      "name": "пнуть",
-      "gen": "acc",
-      "formatter_man": "\uD83D\uDC5E | {first_user} пнул {second_user}",
-      "formatter_woman": "\uD83D\uDC5E | {first_user} пнула {second_user}",
-      "all_ending": "сразу всех"
-    },
-    {
-      "name": "покормить",
-      "gen": "acc",
-      "formatter_man": "\uD83C\uDF55 | {first_user} покормил {second_user}",
-      "formatter_woman": "\uD83C\uDF55 | {first_user} покормила {second_user}",
-      "all_ending": "сразу всех"
-    },
-    {
-      "name": "расстрелять",
-      "gen": "acc",
-      "formatter_man": "\uD83D\uDE18 | {first_user} расстрелял {second_user}",
-      "formatter_woman": "\uD83D\uDE18 | {first_user} расстреляла {second_user}",
-      "all_ending": "сразу всех"
-    },
-    {
-      "name": "делать секс",
-      "gen": "acc",
-      "formatter_man": "\uD83D\uDC49\uD83D\uDC4C\uD83E\uDD2A  | {first_user} сделал секс с {second_user}",
-      "formatter_woman": "\uD83D\uDC49\uD83D\uDC4C\uD83E\uDD2A  | {first_user} сделала секс с {second_user}",
-      "all_ending": "сразу со всеми"
-    },
-    {
-      "name": "сжечь",
-      "gen": "acc",
-      "formatter_man": "\uD83D\uDD25 | {first_user} сжёг {second_user}",
-      "formatter_woman": "\uD83D\uDD25 | {first_user} сожгла {second_user}",
-      "all_ending": "сразу всех"
-    },
-    {
-      "name": "трахнуть",
-      "gen": "acc",
-      "formatter_man": "\uD83D\uDC49\uD83D\uDC4C | {first_user} принудил к интиму {second_user}",
-      "formatter_woman": "\uD83D\uDC49\uD83D\uDC4C | {first_user} принудила к интиму {second_user}",
-      "all_ending": "сразу всех"
-    },
-    {
-      "name": "ущипнуть",
-      "gen": "acc",
-      "formatter_man": "\uD83D\uDE2E | {first_user} ущипнул {second_user}",
-      "formatter_woman": "\uD83D\uDE2E | {first_user} ущипнула {second_user}",
-      "all_ending": "сразу всех"
-    },
-    {
-      "name": "уебать",
-      "gen": "acc",
-      "formatter_man": "\uD83E\uDD1C\uD83E\uDD15 | {first_user} жёстко вдарил {second_user}",
-      "formatter_woman": "\uD83E\uDD1C\uD83E\uDD15 | {first_user} жёстко вдарила {second_user}",
-      "all_ending": "сразу всех"
-    },
-    {
-      "name": "ударить",
-      "gen": "acc",
-      "formatter_man": "\uD83E\uDD1C\uD83D\uDE35 | {first_user} ударил {second_user}",
-      "formatter_woman": "\uD83E\uDD1C\uD83D\uDE35 | {first_user} ударила {second_user}",
-      "all_ending": "сразу всех"
-    },
-    {
-      "name": "укусить",
-      "gen": "acc",
-      "formatter_man": "\uD83D\uDE2C | {first_user} укусил {second_user}",
-      "formatter_woman": "\uD83D\uDE2C | {first_user} укусила {second_user}",
-      "all_ending": "сразу всех"
-    },
-    {
-      "name": "убить",
-      "gen": "acc",
-      "formatter_man": "\uD83D\uDE18 | {first_user} убил {second_user}",
-      "formatter_woman": "\uD83D\uDE18 | {first_user} убила {second_user}",
-      "all_ending": "сразу всех"
-    },
-    {
-      "name": "шлепнуть",
-      "gen": "acc",
-      "formatter_man": "\uD83D\uDC4F | {first_user} шлёпнул {second_user}",
-      "formatter_woman": "\uD83D\uDC4F | {first_user} шлёпнула {second_user}",
-      "all_ending": "сразу всех"
-    }
-  ]
+"role_play_commands": [
+{
+"name": "выебать",
+"gen": "acc",
+"formatter_man": "\uD83D\uDC49\uD83D\uDC4C\uD83D\uDE2C | {first_user} принудил к жёсткому интиму {second_user}",
+"formatter_woman": "\uD83D\uDC49\uD83D\uDC4C\uD83D\uDE2C | {first_user} принудила к жёсткому интиму {second_user}",
+"all_ending": "сразу всех"
+},
+{
+"name": "пиздануть",
+"gen": "acc",
+"formatter_man": "👊🏻 | {first_user} пизданул {second_user}",
+"formatter_woman": "👊🏻 | {first_user} пизданула {second_user}",
+"all_ending": "сразу всех"
+},
+{
+"name": "помолчи",
+"gen": "dat",
+"formatter_man": "🤫 | {first_user} закрыл рот {second_user}",
+"formatter_woman": "🤫🏻 | {first_user} закрыла рот {second_user}",
+"all_ending": "сразу всем"
+},
+{
+"name": "отлизать",
+"gen": "dat",
+"formatter_man": "👅 | {first_user} отлизал {second_user}",
+"formatter_woman": "👅 | {first_user} отлизала {second_user}",
+"all_ending": "сразу всем"
+},
+{
+"name": "связать",
+"gen": "acc",
+"formatter_man": "🙆‍♂ | {first_user} связал {second_user}",
+"formatter_woman": "🙆‍♂ | {first_user} связала {second_user}",
+"all_ending": "сразу всех"
+},
+{
+"name": "заставить",
+"gen": "acc",
+"formatter_man": "🤐 | {first_user} заставил отсосать {second_user}",
+"formatter_woman": "🤐 | {first_user} заставила отлизать {second_user}",
+"all_ending": "сразу всех"
+},
+{
+"name": "повесить",
+"gen": "acc",
+"formatter_man": "💀 | {first_user} повесил {second_user}",
+"formatter_woman": "💀 | {first_user} повесила {second_user}",
+"all_ending": "сразу всех"
+},
+{
+"name": "уничтожить",
+"gen": "acc",
+"formatter_man": "💨 | {first_user} уничтожил {second_user}",
+"formatter_woman": "💨 | {first_user} уничтожила {second_user}",
+"all_ending": "сразу всех"
+},
+{
+"name": "продать",
+"gen": "acc",
+"formatter_man": "💵 | {first_user} продал {second_user}",
+"formatter_woman": "💵 | {first_user} продала {second_user}",
+"all_ending": "сразу всех"
+},
+{
+"name": "щекотать",
+"gen": "acc",
+"formatter_man": "😆 | {first_user} щекочет {second_user}",
+"formatter_woman": "😆 | {first_user} щекочет {second_user}",
+"all_ending": "сразу всех"
+},
+{
+"name": "взорвать",
+"gen": "acc",
+"formatter_man": "💣 | {first_user} взорвал {second_user}",
+"formatter_woman": "💣 | {first_user} взорвала {second_user}",
+"all_ending": "сразу всех"
+},
+{
+"name": "шмальнуть",
+"gen": "acc",
+"formatter_man": "🔫 | {first_user} шмальнул в {second_user}",
+"formatter_woman": "🔫 | {first_user} шамальнула в {second_user}",
+"all_ending": "сразу всех"
+},
+{
+"name": "засосать",
+"gen": "acc",
+"formatter_man": "🤤 | {first_user} засосал {second_user}",
+"formatter_woman": "🤤 | {first_user} засосала {second_user}",
+"all_ending": "сразу всех"
+},
+{
+"name": "лечь",
+"gen": "acc",
+"formatter_man": "🛌 | {first_user} лег к {second_user}",
+"formatter_woman": "🛌 | {first_user} легла к {second_user}",
+"all_ending": "сразу ко всем"
+},
+{
+"name": "унизить",
+"gen": "acc",
+"formatter_man": "🗣 | {first_user} унизил {second_user}",
+"formatter_woman": "🗣 | {first_user} унизила {second_user}",
+"all_ending": "сразу всех"
+},
+{
+"name": "арестовать",
+"gen": "acc",
+"formatter_man": "👮‍♂ | {first_user} арестовал {second_user}",
+"formatter_woman": "👮‍♀ | {first_user} арестовала {second_user}",
+"all_ending": "сразу всех"
+},
+{
+"name": "наорать",
+"gen": "acc",
+"formatter_man": "😰 | {first_user} наорал на {second_user}",
+"formatter_woman": "😰 | {first_user} наорала на {second_user}",
+"all_ending": "всех"
+},
+{
+"name": "рассмешить",
+"gen": "acc",
+"formatter_man": "😂 | {first_user} рассмешил {second_user}",
+"formatter_woman": "😂 | {first_user} рассмешила {second_user}",
+"all_ending": "сразу всех"
+},
+{
+"name": "ушатать",
+"gen": "acc",
+"formatter_man": "😤 | {first_user} ушатал {second_user}",
+"formatter_woman": "😤 | {first_user} ушатала {second_user}",
+"all_ending": "сразу всех"
+},
+{
+"name": "порвать",
+"gen": "acc",
+"formatter_man": "🔞 | {first_user} порвал трусики у {second_user}",
+"formatter_woman": "🔞 | {first_user} порвала трусики у {second_user}",
+ 
+"all_ending": "всех"
+},
+{
+"name": "отрубить",
+"gen": "dat",
+"formatter_man": "🗡 | {first_user} отрубил голову {second_user}",
+"formatter_woman": "🗡 | {first_user} отрубила голову {second_user}",
+"all_ending": "всех"
+},
+{
+"name": "отстрелить",
+"gen": "dat",
+"formatter_man": "🔫 | {first_user} отстрелил детородный орган {second_user}",
+"formatter_woman": "🔫 | {first_user} отстрелила детородный орган {second_user}",
+"all_ending": "сразу всем"
+},
+{
+"name": "выкопать",
+"gen": "acc",
+"formatter_man": "🕳 | {first_user} выкопал {second_user}",
+"formatter_woman": "🕳 | {first_user} выкопала {second_user}",
+"all_ending": "сразу всех"
+},
+{
+"name": "выпороть",
+"gen": "acc",
+"formatter_man": "👉👌 | {first_user} выпорол {second_user}",
+"formatter_woman": "👉👌 | {first_user} выпорола {second_user}",
+"all_ending": "сразу всех"
+},
+{
+"name": "закопать",
+"gen": "acc",
+"formatter_man": "🕳 | {first_user} закопал {second_user}",
+"formatter_woman": "🕳 | {first_user} закопала {second_user}",
+"all_ending": "сразу всех"
+},
+{
+"name": "выпить",
+"gen": "ins",
+"formatter_man": "🍻 | {first_user} выпил с {second_user}",
+"formatter_woman": "🍻 | {first_user} выпила с {second_user}",
+"all_ending": "всеми"
+},
+{
+"name": "наказать",
+"gen": "acc",
+"formatter_man": "😏 | {first_user} наказать {second_user}",
+"formatter_woman": "😏 | {first_user} наказала {second_user}",
+"all_ending": "сразу всех"
+},
+{
+"name": "предложить",
+"gen": "dat",
+"formatter_man": "😏 | {first_user} предложил нарко {second_user}",
+"formatter_woman": "😏 | {first_user} предложила нарко {second_user}",
+"all_ending": "сразу всем"
+},
+{
+"name": "пожелать",
+"gen": "dat",
+"formatter_man": "💤❤ | {first_user} пожелал сладких снов {second_user}",
+"formatter_woman": "💤❤ | {first_user} пожелала сладких снов {second_user}",
+"all_ending": "сразу всем"
+},
+{
+"name": "отсосать",
+"gen": "dat",
+"formatter_man": "🤭 | {first_user} отсосал {second_user}",
+"formatter_woman": "🤭 | {first_user} отсосала {second_user}",
+"all_ending": "сразу всем"
+},
+{
+"name": "дать пять",
+"gen": "dat",
+"formatter_man": "\uD83D\uDE4F\uD83C\uDFFB | {first_user} дал пять {second_user}",
+"formatter_woman": "\uD83D\uDE4F\uD83C\uDFFB| {first_user} дала пять {second_user}",
+"all_ending": "сразу всем"
+},
+{
+"name": "записать на ноготочки",
+"gen": "acc",
+"formatter_man": "\uD83D\uDC85 | {first_user} записал на ноготочки {second_user}",
+"formatter_woman": "\uD83D\uDC85 | {first_user} записала на ноготочки {second_user}",
+"all_ending": "сразу всех"
+},
+{
+"name": "испугать",
+"gen": "acc",
+"formatter_man": "\uD83D\uDE31 | {first_user} испугал {second_user}",
+"formatter_woman": "\uD83D\uDE31 | {first_user} испугала {second_user}",
+"all_ending": "сразу всех"
+},
+{
+"name": "извиниться",
+"gen": "ins",
+"formatter_man": "\uD83D\uDE4F | {first_user} извинился перед {second_user}",
+"formatter_woman": "\uD83D\uDE4F | {first_user} извинилась перед {second_user}",
+"all_ending": "всеми сразу"
+},
+{
+"name": "изнасиловать",
+"gen": "acc",
+"formatter_man": "\uD83D\uDC49\uD83D\uDC4C\uD83D\uDE2C | {first_user} надругался над {second_user}",
+"formatter_woman": "\uD83D\uDC49\uD83D\uDC4C\uD83D\uDE2C | {first_user} надругалась над {second_user}",
+"all_ending": "всеми сразу"
+},
+{
+"name": "кусь",
+"gen": "acc",
+"formatter_man": "\uD83D\uDE2C | {first_user} кусьнул {second_user}",
+"formatter_woman": "\uD83D\uDE2C | {first_user} кусьнула {second_user}",
+"all_ending": "сразу всех"
+},
+{
+"name": "кастрировать",
+"gen": "acc",
+"formatter_man": "✂ | {first_user} кастрировал {second_user}",
+"formatter_woman": "✂ | {first_user} кастрировала {second_user}",
+"all_ending": "сразу всех"
+},
+{
+"name": "лизнуть",
+"gen": "acc",
+"formatter_man": "\uD83D\uDC45 | {first_user} лизнул {second_user}",
+"formatter_woman": "\uD83D\uDC45 | {first_user} лизнула {second_user}",
+"all_ending": "сразу всех"
+},
+{
+"name": "обнять",
+"gen": "acc",
+"formatter_man": "\uD83E\uDD17 | {first_user} обнял {second_user}",
+"formatter_woman": "\uD83E\uDD17 | {first_user} бняла {second_user}",
+"all_ending": "сразу всех"
+},
+{
+"name": "отравить",
+"gen": "acc",
+"formatter_man": "\uD83D\uDC8A | {first_user} отравила {second_user}",
+"formatter_woman": "\uD83D\uDC8A | {first_user} отравила {second_user}",
+
+"all_ending": "сразу всех"
+},
+{
+"name": "отдаться",
+"gen": "acc",
+"formatter_man": "\uD83D\uDC9D | {first_user} отдался {second_user}",
+"formatter_woman": "\uD83D\uDC9D | {first_user} отдалась {second_user}",
+"all_ending": "сразу всем"
+},
+{
+"name": "поздравить",
+"gen": "acc",
+"formatter_man": "\uD83E\uDD73 | {first_user} поздравил {second_user}",
+"formatter_woman": "\uD83E\uDD73 | {first_user} поздравила {second_user}",
+"all_ending": "сразу всех"
+},
+{
+"name": "поцеловать",
+"gen": "acc",
+"formatter_man": "\uD83D\uDE18 | {first_user} поцеловал {second_user}",
+"formatter_woman": "\uD83D\uDE18 | {first_user} поцеловала {second_user}",
+"all_ending": "сразу всех"
+}
+]
 }
